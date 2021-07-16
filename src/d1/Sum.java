@@ -8,6 +8,11 @@ public class Sum {
 		int sum = a + b;
 		System.out.println("sum of number:" + sum);
 
+		a = 1;
+		b = 2;
+		int sub = a - b;
+		System.out.println("subtraction of number:" + sub);
+
 	}
 
 }
