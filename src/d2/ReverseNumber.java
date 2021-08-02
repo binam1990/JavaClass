@@ -9,11 +9,14 @@ public class ReverseNumber {
 		int reverseNumber=0;
 		System.out.println("original number:"+originalNumber);
 		while(originalNumber!=0) {
-			int temp=originalNumber%10;
-			reverseNumber=reverseNumber*10+temp;
+			reverseNumber=reverseNumber*10+originalNumber%10;
 			originalNumber=originalNumber/10;
-			
 		}
+			
+			
+			
+			
+		
 System.out.println("Reverse number is:"+reverseNumber);
 	}
 
